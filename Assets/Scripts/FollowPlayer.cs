@@ -9,7 +9,7 @@ public class FollowPlayer : MonoBehaviour
     private Vector3 [] cameraRotate ={new Vector3(15f,0f,0f)     ,new Vector3(1f,-90f,0f)};
     private int viewOption = 0;
     public InputAction cameraView;
-
+    
     private void OnEnable()
     {
         cameraView.Enable();
