@@ -853,13 +853,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10192446, y: -0, z: -0, w: 0.99479216}
-  m_LocalPosition: {x: -1.42, y: 7.33, z: -13.35}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: 0, y: 7.33, z: -13.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 11.7, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,6 +917,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
   player: {fileID: 1854485021}
+  cameraView:
+    m_Name: Camera View
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 1cdd6c9b-6663-4ef1-9a09-2b876b4d4469
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ba7d7dda-ad3e-4634-b728-f1e662ad4361
+      m_Path: <Keyboard>/f
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Camera View
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
 --- !u!4 &547483030 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1148961831974293154, guid: 6a31f453590f31d46a6d0ff039e95f7f, type: 3}
